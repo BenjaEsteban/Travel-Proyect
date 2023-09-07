@@ -1,0 +1,29 @@
+{
+  "name": "travel-proyect",
+  "version": "1.0.0",
+  "description": "Proyecto de diseño web que presenta una atractiva página web de viajes con un enfoque en la experiencia del usuario y la estética moderna. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build": "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaEsteban/Travel-Proyect.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Tailwind",
+    "Travel"
+  ],
+  "author": "Benjamín Rodríguez <b.esteban.r.v@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenjaEsteban/Travel-Proyect/issues"
+  },
+  "homepage": "https://github.com/BenjaEsteban/Travel-Proyect#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
