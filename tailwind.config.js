@@ -18,6 +18,7 @@ module.exports = {
         'seattle': "url('../img/seattle.jpg')",
         'yosemite': "url('../img/yosemite.jpg')",
         'europe': "url('../img/europe.jpg')",
+        'switzerland': "url('../img/switzerland.jpg')",
       },
 
       backgroundColor: theme => ({
