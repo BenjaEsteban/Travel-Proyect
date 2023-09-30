@@ -3,6 +3,9 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
+      height: {
+        '600': '600px',
+      },
       backgroundImage: {
         'sanFrancisco': "url('../img/sanFrancisco.jpg')",
         'sydney': "url('../img/sydney.jpg')",
@@ -34,8 +37,7 @@ module.exports = {
       },
       fontFamily: {
         Montserrat: ['Montserrat', 'sans-serif'],
-      }
-
+      },
     },
   },
   plugins: [],
